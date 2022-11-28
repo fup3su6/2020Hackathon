@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<!--
+    Transitive by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+    <head>
+        <title>Support us</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+            .searchbar{display:flex; margin:30px;}
+            nav > .bar1 {
+                    flex: none;
+                    width: 35%;
+                    text-align: center;
+            }
+            nav > .bar2 {
+                flex:none;
+                width: 25%;
+                    text-align: center;
+            }
+            nav > .bar3 {
+                justify-content: flex-end;
+                background-color: white;
+                border: hidden;
+                width: 25%;
+                text-align: center;
+            }
+                nav > .bar4 {
+                    flex: none;
+                    width: 15%;
+
+                    text-align: center;
+                }
+            .hide{
+                display: none;
+            }
+            .farm2 {
+                display: none;
+            }
+            .farm1 {
+                display: none;
+
+            }
+            .farmer1 {
+
+                width: 38%;
+                justify-content: center;
+            }
+            .farmer2 {
+                width: 38%;
+                justify-content: center;
+            }
+            .info {
+                margin-top: -3%;
+            }
+            .list {
+                font-family:BiauKai;
+                //margin-bottom:0.7%;
+            }
+        </style>
+        <script type="text/javascript">
+            function demo() {
+            var location = document.getElementById("location").value;
+            var fruit = document.getElementById("fruit").value;
+            if(location=="Taipei" && fruit=="apple")
+            {
+               document.getElementById("hide").style.display = "block";
+               document.getElementById("farm1").style.display = "flex";
+               document.getElementById("farm2").style.display = "flex";
+               document.getElementById("farmer1").style.flex = "none";
+               document.getElementById("farmer2").style.flex = "none";     
+            }
+        }
+
+        </script>
+
+        <script>
+      $(function() {
+        var t0, t1;
+
+        // Test to show that the carousel doesn't slide when the current tab isn't visible
+        // Test to show that transition-duration can be changed with css
+        $('#carousel-example-generic').on('slid.bs.carousel', function(event) {
+          t1 = performance.now()
+          console.log('transition-duration took' + (t1 - t0) + 'ms, slid at ', event.timeStamp)
+        }).on('slide.bs.carousel', function() {
+          t0 = performance.now()
+        })
+      })
+    </script>
+    
+    <script src="jquery.slim.min.js"></script>
+    <script src="util.js"></script>
+    <script src="carousel.js"></script>
+
+    </head>
+    <body class="subpage">
+
+        <!-- Header -->
+            <header id="header">
+                <div class="logo"><a href="index.html">Harvest <span>Together</span></a></div>
+                <a href="#menu" class="toggle"><span>Menu</span></a>
+            </header>
+
+        <!-- Nav -->
+            <nav id="menu">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Support us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            
+        <!-- One -->
+            <section id="one" class="wrapper tyle2">
+                <div class="inner">
+                    <div>
+                        <div class="image fit">
+                            <img src="images/1.jpeg" alt="" width="70%" height="400px">
+                        </div>
+                        <div style="text-align:center;">
+                            <b style="font-family:monospace;font-size:30px;">核心理念</b><br><br>
+                            <p><font size="4" color="#575757">在全球化的衝擊下，台灣農業面臨嚴重的產銷失衡問題。國外便宜的水果大量輸入<br>大大縮減台灣農業的內銷市場，造成大量的農產品滯銷，甚至最後果農直接放棄採收。<br>
+                            <br>近幾年，在政府的幫助下農產品逐漸向外出口，稍微舒緩了水果大量滯銷的問題。<br>但就在今年2020，COVID-19全球大爆發，全世界的經濟頓時大量衰退，各地失業率節節攀升，各行各業受到的衝擊也都是前所未見的。<br>
+                                隨著各國政府陸續發布禁令，全球各地的航班紛紛停飛，各國間的貿易接連中斷，導致台灣原本依靠出口維生的果農血本無歸。<br><br>
+                                <b>Harvest Together</b>希望能藉由網路平台的去中心化，幫助果農發展國內市場<br>以部分果樹認養的方式獲得穩定的租金收入，避免產量過剩時滯銷的問題。<br>另外，消費者也能以最直接的方式獲取新鮮水果，不必忍受中盤商哄抬價格。
+                                </font>
+                            </p>
+                        </div>
+                        <hr>
+                        <div style="text-align:center;">
+                            <b style="font-family:monospace;font-size:30px;">出租流程</b><br><br>
+                            <div class="step">
+                                <h3>步驟一、</h3>
+                                <p style="margin-top:-1%;"><font size="4" color="#575757">請先選擇您所在的區域以及水果種類，接著挑選您所喜愛的果園。每座果園都經由我們嚴格審核，不需擔心來源不明。</font></p>
+
+                            </div>
+                            <div class="step">
+                                <h3>步驟二、</h3>
+                                <p style="margin-top:-1%;"><font size="4" color="#575757">填寫訂單，確認租賃內容無誤，如有任何問題馬上聯絡果農。</font></p>
+                                
+                            </div>
+                            <div class="step" >
+                                <h3>步驟三、</h3>
+                                <p style="margin-top:-1%;color:black"><font size="4" color="#575757">等待農作物成熟，可選擇自行前往果園採收，或是交由果農採收再宅配到府。</font></p>
+                            </div>
+                            <ul style="margin-left:-1%;display:inline-block;">
+                                <h3 style="margin-top:5%;margin-left:-3.5%;">＊注意事項</h3>
+                                <li><font size="4" color="#575757">農作物收成均為消費者所有。</font></li>
+                                <li><font size="4" color="#575757">每棵果樹會事先預期最低產量，如果收成欠佳無法達到最低產量，將由農民補足不足的數量給消費者。</font></li>
+                                <li><font size="4" color="#575757">如遇天災等不可抗拒因素導致農民無法補足最低產量，將依照欠收的百分比退還一半租金。</font></li>
+                            </ul>
+                        </div>
+                        <hr style="width:100%;">
+                        <nav class="searchbar">
+                            <div class="bar1" >
+                            <select id="location" style="background-color:#DDDDDD;">
+                                <option value="">選擇地區</option>
+                                <option value="Taipei" >台北</option>
+                                <option value="Taoyuan" >桃園</option>
+                                <option value="Hsinchu" >新竹</option>
+                                <option value="Miaoli" >苗栗</option>
+                                <option value="Taichung" >台中</option>
+                                <option value="Changhua" >彰化</option>
+                                <option value="Yunlin" >雲林</option>
+                                <option value="Chiayi" >嘉義</option>
+                                <option value="Tainan" >台南</option>
+                                <option value="Kaohsiung" >高雄</option>
+                                <option value="Pingtung" >屏東</option>
+                                <option value="Taitung" >台東</option>
+                                <option value="Hualien" >花蓮</option>
+                                <option value="Yilan" >宜蘭</option>
+                            </select>
+                            </div>
+                            &emsp;&emsp;
+                            <div class="bar2">
+                            <select id="fruit" style="background-color:#DDDDDD";>
+                                <option value="">選擇種類</option>
+                                <option value="apple">蘋果</option>
+                                <option value="Guava">芭樂</option>
+                                <option value="banana">香蕉</option>
+                                <option value="Sugar_Apple">釋迦</option>
+                                <option value="pear">梨子</option>
+                                <option value="papaya">木瓜</option>
+                                <option value="strawberry">草莓</option>
+                                <option value="orange">柳丁</option>
+                                <option value="peach">水蜜桃</option>
+                                <option value="pitaya">火龍果</option>
+                            </select>
+                            </div>
+                            <div class="bar3">
+                            </div>
+                            <div id="btn" class="bar4" >
+                                <input  type="button" style="background-color:#DDDDDD;" value="搜尋" onclick="demo();"></input>
+                            </div>
+                        </nav>
+
+                </div>
+                </div>
+                <hr style="width:88%;margin-left:6%;" >
+            </section>
+
+            <div class="farm1" id="farm1">
+                <div class="farmer1" id="farmer1" style="margin-left:10%;">
+                    <div class="container" style="width:500px">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/1.jpg" style="width:480px;height:350px;" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/2.jpg" style="width:480px;height:350px;" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/3.jpg" style="width:480px;height:350px;" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="farmer1" id="farmer1" style="margin-left:5%;width:42%;">
+                    <div style="margin-right:5%;margin-top:-1%"><p style="font-size:28px;font-family:LiHei Pro;color:black;">元智蘋果園 <span style="font-size:15px;color:#AAAAAA"> 代號 #A3265</span></p></div>
+                    <p style="font-size:15px;margin-top:-4%;">元智蘋果園位於北投陽明山上，海拔約400公尺，周圍景色優美，夏季均溫約為攝氏23度，適合全家大小出門踏青，
+                    肥沃的土壤更是培育出品質優良蘋果不可或缺的因素，歡迎大家前來體驗採收蘋果的樂趣。</p>
+                    <hr style="margin-top:-2%;">
+                    <div class="info" style="margin-top:-3%;">
+                        <p style="font-family:LiHei Pro ;font-size:25px;height:20px;">NT$ 499/季</p>
+                        <div class="list"><h3 style="display:inline;">產季： </h3><h4 style="display:inline;">秋、冬</h4></div>
+                        <div class="list"><h3 style="display:inline;">租賃單位： </h3><h4 style="display:inline;">一棵果樹</h4></div>
+                        <div class="list"><h3 style="display:inline;">保底收成量： </h3><h4 style="display:inline;">50顆</h4></div>
+                        <div class="list"><h3 style="display:inline;">地址： </h3><h4 style="display:inline;"></h4>臺北市北投區陽明山竹子湖路1-20號</div>
+                        <div class="list"><h3 style="display:inline;">聯絡電話： </h3><h4 style="display:inline;">0911222333</h4></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="hide" id="hide"><br><hr style="width: 90%; margin-left: 5%;"><br></div>
+                
+               <div class="farm2" id="farm2">
+                <div class="farmer2" id="farmer2" style="margin-left:10%;">
+                    <div class="container" style="width:500px">
+                        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/t1.jpg" style="width:480px;height:350px;" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/t2.jpg" style="width:480px;height:350px;" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/t3.jpeg" style="width:480px;height:350px;" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-example-generic2" role="button"  data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-example-generic2" role="button" onclick="move();" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="farmer2" id="farmer2" style="margin-left:5%;width:42%;">
+                    <div style="margin-right:5%;margin-top:-1%"><p style="font-size:28px;font-family:LiHei Pro;color:black;">台大農場 <span style="font-size:15px;color:#AAAAAA"> 代號 #A4278</span></p></div>
+                    <p style="font-size:15px;margin-top:-4%;">台大農場有豐富的自然生態環境。除了支援教學試驗與研究外，使用最先進的栽種技術，培養農產特品，歡迎來我們的農場走走，帶點農特產品回家與家人一同分享。</p>
+                    <hr style="margin-top:-2%;">
+                    <div class="info" style="margin-top:-3%;">
+                        <p style="font-family:LiHei Pro ;font-size:25px;height:20px;">NT$ 300/季</p>
+                        <div class="list"><h3 style="display:inline;">產季： </h3><h4 style="display:inline;">秋、冬</h4></div>
+                        <div class="list"><h3 style="display:inline;">租賃單位： </h3><h4 style="display:inline;">一棵果樹</h4></div>
+                        <div class="list"><h3 style="display:inline;">保底收成量： </h3><h4 style="display:inline;">45顆</h4></div>
+                        <div class="list"><h3 style="display:inline;">地址： </h3><h4 style="display:inline;">台北市大安區羅斯福路四段1號</h4></div>
+                        <div class="list"><h3 style="display:inline;">聯絡電話： </h3><h4 style="display:inline;">0912345678</h4></div>
+
+                    </div>
+                 </div>
+                </div>
+                <br><br>
+                <div class="hide" id="hide"><br><hr style="width:88%; margin-left: 6%;"><br></div>
+
+                <!-- Footer -->
+                <footer id="footer" class="wrapper">
+                    <div class="inner">
+                        <section>
+                            <div class="box">
+                                <div class="content">
+                                    <h2 class="align-center">認領果樹</h2>
+                                    <hr />
+                                    <form action="support.php" method="post">
+                                        <div class="field half first">
+                                            <label for="name">姓名</label>
+                                            <input name="name" id="name" type="text" placeholder="Name" required>
+                                        </div>
+                                        <div class="field half">
+                                            <label for="name">年齡</label>
+                                            <input name = "age" id = "age" type="text" pattern = "\d{1,3}" placeholder="18-120" required>
+                                        </div>
+                                        <div class="field half first">
+                                            <label for="email">電子郵件</label>
+                                            <input name="email" id="email" type="email" placeholder="Email" required>
+                                        </div>
+                                        <div class="field half">
+                                            <label for="email">電話</label>
+                                            <input name="phone" id="phone" type="text"  pattern = "\d{10}" placeholder="phone" required>
+                                        </div>
+                                        <div class="field">
+                                            <label for="email">住家地址</label>
+                                            <input name="address" id="address" type="text" placeholder="address" required>
+                                        </div>
+                                        <div class="field half first">
+                                            <label for="email">果園代號</label>
+                                            <input name="garden_label" id="garden_lebal" type="text" placeholder="#A0000" required>
+                                        </div>
+                                        <div class="field half">
+                                            <label for="email">數量</label>
+                                            <input name="count" id="count" type="text" placeholder="" pattern = "\d{1,3}" required>
+                                        </div>
+                                        <div class="field half first">
+                                            <label for="email">種類</label>
+                                            <select name="type"" id="type">
+                                                <option value="">-選擇種類-</option>
+                                                <option value="1"">蘋果</option>
+                                                <option value="2">芭樂</option>
+                                                <option value="3">香蕉</option>
+                                                <option value="4">釋迦</option>
+                                                <option value="5">梨子</option>
+                                                <option value="6">木瓜</option>
+                                                <option value="7">草莓</option>
+                                                <option value="8">柳丁</option>
+                                                <option value="9">水蜜桃</option>
+                                                <option value="10">火龍果</option>
+                                            </select>
+                                        </div>
+                                        <div class="field half">
+                                            <label for="email">方案</label>
+                                            <select name="program"" id="type">
+                                                <option value="">-方案-</option>
+                                                <option value="1">自行採收</option>
+                                                <option value="2">農民代採</option>
+                                            </select>
+                                        </div>
+                                        <div class="field">
+                                            <label for="dept">付款方式</label>
+                                            <div class="select-wrapper">
+                                                <select name="dept" id="dept">
+                                                    <option value="">-請選擇付款方式-</option>
+                                                    <option value="1">銀行轉帳</option>
+                                                    <option value="2">信用卡/金融卡</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="field">
+                                            <label for="message">備註</label>
+                                            <textarea name="message" id="message" rows="2" placeholder="Message"></textarea>
+                                        </div>
+                                        <ul class="actions align-center">
+                                            <li style="background-color: #5AA6ED; border-radius: 5px;"><input value="確認訂單" class="button special" type="submit"></li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="copyright">
+                            &copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a> Video <a href="http://coverr.co/">Coverr</a>.
+                        </div>
+                    </div>
+                </footer>
+                <!-- Scripts -->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/jquery.scrolly.min.js"></script>
+                <script src="assets/js/jquery.scrollex.min.js"></script>
+                <script src="assets/js/skel.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
+
+</body>
+</html>
